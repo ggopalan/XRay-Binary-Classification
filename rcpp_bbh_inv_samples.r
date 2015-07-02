@@ -5,13 +5,11 @@
 
 library(mvtnorm)
 library(MASS)
-library(lattice)
 library(inline)
 library(Rcpp)
 library(RcppEigen)
 library(RcppArmadillo)
-require(MASS)
-require(fields)
+
 
 ############################################
 #INLINE RCPP FUNCTIONS

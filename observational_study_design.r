@@ -1,6 +1,5 @@
 #Giri Gopalan (Joint work with Saku Vrtilek and Luke Bornn)
 
-#library(rgl)
 
 # PURPOSE: The training data set consists of data from 24 binary systems. The number of observations from each of these systems
 # varies widely, with some systems heavily overrepresented and some systems underrepresented. Additionally we are

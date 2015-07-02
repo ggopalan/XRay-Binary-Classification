@@ -7,8 +7,7 @@
 
 #USAGE: Rscript predictive_distribution_sampler.r input_file_name output_file_name
 
-require(MASS)
-require(fields)
+library(MASS)
 library(Rcpp)
 library(RcppArmadillo)
 library(RcppEigen)

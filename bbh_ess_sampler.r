@@ -3,8 +3,8 @@
 #PURPOSE: R Script to perform elliptical slice sampling for the classification of X-Ray binary black hole systems into 1 of 3 Classes: 1)black hole 2)non-pulsar 3)pulsar
 library(Rcpp)
 library(RcppArmadillo)
-require(MASS)
-require(fields)
+library(MASS)
+
 #########################
 #Overview of Model Parameters:
 # - alpha_1,alpha_2,alpha_3 which correspond to the baseline propensity that each data point corresponds to a BH, pulsar, or non-pulsar.

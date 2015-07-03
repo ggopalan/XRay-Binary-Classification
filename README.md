@@ -11,6 +11,8 @@ paper and apply it to other data sets.
 	ii) The 6 validation systems from Table 1 are in "Validation".
 	iii) The 6 burster systems from Table 2 are in "Burster_Test".
 	iv) The 5 unclassified systems from Table 3 are in "Unclass".
+	
+Note on the formatting of input data: the first column is the system name, the second is the second is the system type, the third is the date, the fourth is the intensity, the fifth is color 1, and the sixth is color 2.
 
 2) Main Code: The flow of the code is as follows.
     i) First, "observational_study_design.R" reads in the CCI files in "Training" and 

@@ -25,6 +25,7 @@ Note on the formatting of input data: the first column is the system name, the s
     and MacKay 2010). The resultant output is stored in "bbh_ess_10000reps.RData"
     iv) Fourth, "predictive_distribution_sampler.r" is run to generate the posterior predictive samples
     of compact object type of all the observations in a file specified in the first command line argument (where the third through fifth coumns contain CCI values) and the output file name is specified in the second command line argument. The resultant output is stored in "system_name.RData".
+    v) Fifth, "compute+predictions.r" computes the probability estimates and associated standard errors that appear      in the Tables. 
     
 3) Output: The ".RData" files in the "Validation_Output" folder store the posterior 
    predictive draws of the compact object type for all observations in the system (denoted as Y_pred in the paper)      and are located in the Validation_Output

@@ -7,8 +7,8 @@ library(MASS)
 
 #########################
 #Overview of Model Parameters:
-# - alpha_1,alpha_2,alpha_3 which correspond to the baseline propensity that each data point corresponds to a BH, non-pulsar, or pulsar.
-# - beta_1,beta_2,beta_3 which correspond to the marginal effect that the latent variables have on the propensity to be of each type.
+# - alpha_1, alpha_2, alpha_3 which correspond to the baseline propensity that each data point corresponds to a BH, non-pulsar, or pulsar.
+# - beta_1, beta_2, beta_3 which correspond to the marginal effect that the latent variables have on the propensity to be of each type.
 # - Z_1, Z_2, Z_3 are latent real valued variables which govern the propensity of each data point to be of each type.
 #Overview of Model:
 # - alphas have independent normal priors.

@@ -9,13 +9,13 @@ library(MASS)
 #Overview of Model Parameters:
 # - alpha_1,alpha_2,alpha_3 which correspond to the baseline propensity that each data point corresponds to a BH, pulsar, or non-pulsar.
 # - beta_1,beta_2,beta_3 which correspond to the marginal effect that the latent variables have on the propensity to be of each type.
-# - Y_1, Y_2, Y_3 are latent real valued variables which govern the propensity of each data point to be of each type.
+# - Z_1, Z_2, Z_3 are latent real valued variables which govern the propensity of each data point to be of each type.
 #Overview of Model:
 # - alphas have independent normal priors.
 # - betas have independent normal priors.
-# - Y_i are drawn according to a Gaussian process prior with squared exponential kernel.
+# - Z_i are drawn according to a Gaussian process prior with squared exponential kernel.
 # - The class of  data point j is drawn according to a categorical distribution where p_i is proportional to exp(b_i+a_i*Y_ij), and i indexes over (3) classes.
-# - The classes of the data points are independent conditioning on Y_i, alphas, and betas.
+# - The classes of the data points are independent conditioning on Z_i, alphas, and betas.
 #######################
 #load data
 load("rcpp_bbh_inverse.RData")

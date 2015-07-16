@@ -33,5 +33,5 @@ Note on the formatting of input data: the first column is the system name, the s
     
 NOTES:
 1) This code was run on the Harvard Odyssey supercomputer and so it will take substantially
-longer on a personal computer; if possible the code should be run on a supercomputer.
+longer on a personal computer; if possible the code should be run on a supercomputer. A supercomputer is not necessary, however.
 2) More instructions for running the code are found in the comments within each R file.

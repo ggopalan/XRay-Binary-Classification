@@ -14,7 +14,7 @@ library(MASS)
 # - alphas have independent normal priors.
 # - betas have independent normal priors.
 # - Y_i are drawn according to a Gaussian process prior with squared exponential kernel.
-# - The class of  data point j is drawn according to a categorical distribution where p_i is proportional to exp(b_i+a_i*Y_ij), and i indexes over (3) classes.
+# - The class of  data point j is drawn according to a categorical distribution where p_i is proportional to exp(a_j+b_j*Y_ij), and j indexes over (3) classes.
 # - The classes of the data points are independent conditioning on Y_i, alphas, and betas.
 #NOTE: Y_i refers to the latent variables in the code, but this is Z_i in the paper.
 #######################

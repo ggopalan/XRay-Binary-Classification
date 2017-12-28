@@ -11,12 +11,12 @@ library(MASS)
 # - beta_1, beta_2, beta_3 which correspond to the marginal effect that the latent variables have on the propensity to be of each type.
 # - Y_1, Y_2, Y_3 are latent real valued variables which govern the propensity of each data point to be of each type.
 #Overview of Model:
-# - alphas have independent normal priors.
-# - betas have independent normal priors.
-# - Y_i are drawn according to a Gaussian process prior with squared exponential kernel.
-# - The class of  data point j is drawn according to a categorical distribution where p_i is proportional to exp(a_j+b_j*Y_ij), and j indexes over (3) classes.
-# - The classes of the data points are independent conditioning on Y_i, alphas, and betas.
-#NOTE: Y_i refers to the latent variables in the code, but this is Z_i in the paper.
+# - alphas have independent unit normal priors.
+# - betas have independent unit normal priors.
+# - Y_j are drawn according to a Gaussian process prior with squared exponential kernel.
+# - The class of  data point i is drawn according to a categorical distribution where p_j is proportional to exp(a_j+b_j*Y_ij), and j indexes over (3) classes.
+# - The classes of the data points are independent conditioning on Y_j, alphas, and betas.
+#NOTE: Y refers to the latent variables in the code, but this is Z in the paper.
 #######################
 #load data
 load("rcpp_bbh_inverse.RData")
